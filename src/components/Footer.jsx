@@ -34,7 +34,7 @@ export default function Footer() {
                 {/* End social */}
 
                 <p>
-                    Copyright <FaRegCopyright /> 2023 all rights reserved
+                    Copyright <FaRegCopyright /> 2024 all rights reserved
                 </p>
             </div>
             {/* End info */}
