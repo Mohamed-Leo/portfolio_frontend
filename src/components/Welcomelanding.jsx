@@ -53,7 +53,7 @@ export default function Welcomelanding() {
                             </p>
                         </div>
 
-                        <Link to={'https://drive.google.com/file/d/1NSYKyHIyclv0L-nNFp_Ecq_Xnnirja8_/view?usp=sharing'} className="lets_connect" target='_blank'>
+                        <Link to={'https://drive.google.com/file/d/10tMc-cuARX0QJcbYkLVwcsV0a5HpD43F/view'} className="lets_connect" target='_blank'>
                             <span className="circle" aria-hidden="true">
                                 <span className="icon arrow"></span>
                             </span>
