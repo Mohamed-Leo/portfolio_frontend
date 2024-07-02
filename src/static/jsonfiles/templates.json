@@ -2,35 +2,35 @@
     {
         "id": 1,
         "name": "Leo World",
-        "img": "public/project-images/leoworld.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/leoworld.png",
         "demo":"https://mohamed-leo.github.io/Template-3/template-3.html",
         "repo":"https://github.com/Mohamed-Leo/Template-3"
     },
     {
         "id": 2,
         "name": "Sigma Star",
-        "img": "public/project-images/figmastart.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/figmastart.png",
         "demo":"https://mohamed-leo.github.io/Sigma-Star-template/home.html",
         "repo":"https://github.com/Mohamed-Leo/Sigma-Star-template"
     },
     {
         "id": 3,
         "name": "Landing Page",
-        "img": "public/project-images/landingpage.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/landingpage.png",
         "demo":"https://mohamed-leo.github.io/landing-page/landing.html",
         "repo":"https://github.com/Mohamed-Leo/landing-page"
     },
     {
         "id": 4,
         "name": "EarthCare",
-        "img": "public/project-images/earthcare.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/earthcare.png",
         "demo":"https://mohamed-leo.github.io/earthcare_landing-page/",
         "repo":"https://github.com/Mohamed-Leo/earthcare_landing-page"
     },
     {
         "id": 5,
         "name": "Gaming Store",
-        "img": "public/project-images/gamingstore.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/gamingstore.png",
         "demo":"https://mohamed-leo.github.io/Gaming_Store/home.html",
         "repo":"https://github.com/Mohamed-Leo/Gaming_Store"
     }

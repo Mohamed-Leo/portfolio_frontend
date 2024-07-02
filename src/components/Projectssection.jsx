@@ -11,19 +11,7 @@ import { Container, Row , Col , Nav , TabContainer, TabContent, TabPane } from '
 import { FaAngleRight } from "react-icons/fa";
 
 
-export default function Projectssection() {
-
-    // const [templates , setTemplates] = useState();
-    // const [projects , setProjects] = useState();
-
-    // useEffect(() => {
-    //     // get templates api----
-    //     axios.get('https://portfoliobackend-production-d3c2.up.railway.app/api/templates-api').then(response => setTemplates(response.data)).catch(error => console.log(error));
-
-    //     // get projects api----
-    //     axios.get('https://portfoliobackend-production-d3c2.up.railway.app/api/projects-api').then(response => setProjects(response.data)).catch(error => console.log(error));
-    // } , []);
-
+export default function Projectssection() { 
 
     return (
         <section className='project_sec' id='projects'>

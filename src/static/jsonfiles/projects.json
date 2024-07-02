@@ -2,68 +2,68 @@
     {
         "id": 1,
         "name": "ShopeWise",
-        "img": "public/project-images/shopwise.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/shopwise.png",
         "demo":"https://mohamed-leo.github.io/e-commerce-shopwise/",
         "repo":"https://github.com/Mohamed-Leo/e-commerce-shopwise"
     },
     {
         "id": 2,
         "name": "T-Shirts-Store",
-        "img": "public/project-images/t-shirt.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/t-shirt.png",
         "demo":"https://mohamed-leo.github.io/T-Shirts-Store/store.html",
         "repo":"https://github.com/Mohamed-Leo/T-Shirts-Store"
     },
     {
         "id": 3,
         "name": "Gaming_Store",
-        "img": "public/project-images/gamingstore.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/gamingstore.png",
         "repo":"https://github.com/Mohamed-Leo/gaming-store"
     },
     {
         "id": 4,
         "name": "to do list",
-        "img": "public/project-images/to-do-list.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/to-do-list.png",
         "demo":"https://mohamed-leo.github.io/to-do-list/",
         "repo":"https://github.com/Mohamed-Leo/to-do-list"
     },
     {
         "id": 5,
         "name": "Weather app",
-        "img": "public/project-images/weatherapp.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/weatherapp.png",
         "demo":"https://mohamed-leo.github.io/weather_app/",
         "repo":"https://github.com/Mohamed-Leo/weather_app"
     },
     {
         "id": 6,
         "name": "clock",
-        "img": "public/project-images/clock.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/clock.png",
         "demo":"https://mohamed-leo.github.io/clock/",
         "repo":"https://github.com/Mohamed-Leo/clock"
     },
     {
         "id": 7,
         "name": "tic-tac-toe",
-        "img": "public/project-images/xogame.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/xogame.png",
         "demo":"https://mohamed-leo.github.io/tic-tac-toe-game/",
         "repo":"https://github.com/Mohamed-Leo/tic-tac-toe-game"
     },
     {
         "id": 8,
         "name": "Bistro_Bliss",
-        "img": "public/project-images/bistrobliss.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/bistrobliss.png",
         "repo":"https://github.com/Mohamed-Leo/Bistro_Bliss"
     },
     {
         "id": 9,
         "name": "prayer-Times",
-        "img": "public/project-images/prayerTimes.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/prayerTimes.png",
         "demo" : "https://mohamed-leo.github.io/prayer-Times/",
         "repo":"https://github.com/Mohamed-Leo/prayer-Times"
     },
     {
         "id": 10,
         "name": "memory blocks",
-        "img": "public/project-images/memoryblocks.png",
+        "img": "https://raw.githubusercontent.com/Mohamed-Leo/portfolio_frontend/main/public/project-images/memoryblocks.png",
         "demo" : "https://mohamed-leo.github.io/memory_blocks_game/",
         "repo":"https://github.com/Mohamed-Leo/memory_blocks_game"
     }
