@@ -1,7 +1,10 @@
-import {useEffect , useState} from 'react';
-import axios from 'axios';
 import {Link} from 'react-router-dom';
 import { ScrollParallax } from "react-just-parallax";
+
+// import json files-------------------------
+import projects from "../static/jsonfiles/projects.json";
+import templates from "../static/jsonfiles/templates.json";
+
 // react bootstrap----------
 import { Container, Row , Col , Nav , TabContainer, TabContent, TabPane } from 'react-bootstrap';
 
@@ -10,16 +13,16 @@ import { FaAngleRight } from "react-icons/fa";
 
 export default function Projectssection() {
 
-    const [templates , setTemplates] = useState();
-    const [projects , setProjects] = useState();
+    // const [templates , setTemplates] = useState();
+    // const [projects , setProjects] = useState();
 
-    useEffect(() => {
-        // get templates api----
-        axios.get('https://portfoliobackend-production-d3c2.up.railway.app/api/templates-api').then(response => setTemplates(response.data)).catch(error => console.log(error));
+    // useEffect(() => {
+    //     // get templates api----
+    //     axios.get('https://portfoliobackend-production-d3c2.up.railway.app/api/templates-api').then(response => setTemplates(response.data)).catch(error => console.log(error));
 
-        // get projects api----
-        axios.get('https://portfoliobackend-production-d3c2.up.railway.app/api/projects-api').then(response => setProjects(response.data)).catch(error => console.log(error));
-    } , []);
+    //     // get projects api----
+    //     axios.get('https://portfoliobackend-production-d3c2.up.railway.app/api/projects-api').then(response => setProjects(response.data)).catch(error => console.log(error));
+    // } , []);
 
 
     return (
@@ -62,15 +65,15 @@ export default function Projectssection() {
                                             <div className="pro_Boxes">
                                                 {/* Start box */}
                                                 {
-                                                    templates?.map(temp =>
+                                                    templates.map(temp =>
                                                         <div className="box" style={{"--d" : temp.id - 1}} key={temp.id}>
-                                                            <img src={"https://portfoliobackend-production-d3c2.up.railway.app/storage/assets/" + temp.img_file} alt={temp.name} />
+                                                            <img src={temp.img} alt={temp.name} />
                                                             <div className="over">
                                                                 <h5>{temp.name}</h5>
-                                                                <Link to={temp.demo_link} target='_blank'>
+                                                                <Link to={temp.demo} target='_blank'>
                                                                     demo <FaAngleRight className='arrow_icon'/>
                                                                 </Link>
-                                                                <Link to={temp.repo_link} target='_blank'>
+                                                                <Link to={temp.repo} target='_blank'>
                                                                     repo <FaAngleRight className='arrow_icon'/>
                                                                 </Link>
                                                             </div>
@@ -95,15 +98,18 @@ export default function Projectssection() {
                                             <div className="pro_Boxes">
                                                 {/* Start box */}
                                                 {
-                                                    projects?.map(pro =>
+                                                    projects.map(pro =>
                                                         <div className="box" key={pro.id} style={{"--d" : pro.id - 1}}>
-                                                            <img src={"https://portfoliobackend-production-d3c2.up.railway.app/storage/assets/" + pro.img_file} alt="template-img" />
+                                                            <img src={pro.img} alt="template-img" />
                                                             <div className="over">
                                                                 <h5>{pro.name}</h5>
-                                                                <Link to={pro.demo_link} target='_blank'>
-                                                                    demo <FaAngleRight className='arrow_icon'/>
-                                                                </Link>
-                                                                <Link to={pro.repo_link} target='_blank'>
+                                                                {
+                                                                    pro.demo && 
+                                                                    <Link to={pro.demo} target='_blank'>
+                                                                        demo <FaAngleRight className='arrow_icon'/>
+                                                                    </Link>
+                                                                }
+                                                                <Link to={pro.repo} target='_blank'>
                                                                     repo <FaAngleRight className='arrow_icon'/>
                                                                 </Link>
                                                             </div>
